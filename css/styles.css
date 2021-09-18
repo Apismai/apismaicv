@@ -10005,7 +10005,10 @@ section.resume-section .resume-section-content {
   max-width: 30%;
   height: auto;
 }
-
+.responsivee {
+  width: auto;
+  height: auto;
+}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -10083,7 +10086,7 @@ html,body{
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #6665ee;
+  background: #00ffdd;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
