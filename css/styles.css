@@ -4,6 +4,7 @@
 # Body Config
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap'); /*เรียกฟอนต์จาก Google API*/
+
 body {
     font-family: 'Pridi', serif;
     color: #22577A;
@@ -10010,7 +10011,6 @@ section.resume-section .resume-section-content {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 html,body{
   display: grid;
