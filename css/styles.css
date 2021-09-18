@@ -121,6 +121,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
+  
 }
 
 h1, .h1 {
@@ -129,6 +130,7 @@ h1, .h1 {
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 6rem;
+    
   }
 }
 
@@ -138,6 +140,7 @@ h2, .h2 {
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 3.5rem;
+   
   }
 }
 
@@ -3066,7 +3069,12 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-
+.cut-text-multi{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  }
 .card {
   position: relative;
   display: flex;
@@ -9843,6 +9851,7 @@ textarea.form-control-lg {
 body {
   padding-top: 3.375rem;
   color: #6c757d;
+  word-wrap: break-word;
 }
 
 @media (min-width: 992px) {
@@ -9863,10 +9872,12 @@ h5,
 h6,
 .h6 {
   text-transform: uppercase;
+  word-wrap: break-word;
 }
 
 h1, .h1 {
   line-height: 1;
+  word-wrap: break-word;
 }
 
 p.lead {
@@ -9875,10 +9886,12 @@ p.lead {
 }
 
 .subheading {
+  display: table-cell;
   font-family: 'Pridi', serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  word-wrap: break-word;
 }
 
 #sideNav {
