@@ -10086,11 +10086,11 @@ html,body{
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #00ffdd;
+  background: #304d63;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
-  width: 90%;
+  width: 45%;
 }
 .bar .progress-line.css span{
   width: 60%;
@@ -10099,7 +10099,7 @@ html,body{
   width: 85%;
 }
 .bar .progress-line.office span{
-  width: 50%;
+  width: 95%;
 }
 .bar .progress-line.cpp span{
   width: 75%;
