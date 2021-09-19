@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+/* สัญลักษณ์ css */
+
 @import url(https://codepen.io/chrisdothtml/pen/ojLzJK.css);
 @import url(https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap);
 
@@ -35,17 +38,6 @@ h3 {
 h4 {
     font-size: 22px;
     font-weight: 200;
-}
-
-.subheading {
-    /*ความคุมตัวอักษรข้อความ เนื้อหา subheading*/
-    font-family: Pridi, serif;
-    color: rgb(180, 141, 141);
-}
-
-p {
-    /*ความคุมตัวอักษรข้อความ*/
-    font-family: Pridi, serif;
 }
 
 
@@ -122,7 +114,7 @@ img {
 }
 
 
-/* ส่วนควบคุมเมนูให้ยุบตามขนาดจอ*/
+/* ส่วนควบคุมเมนูให้ยุบตามขนาดจอ bar ข้างบน*/
 
 @media screen and (max-width: 800px) {
     .topnav.responsive {
@@ -169,7 +161,8 @@ body {
     font-family: Pridi, serif;
     font-size: 22px;
     color: #DDDD;
-    background-image: #2e2e2e;
+    background-color: #1d1c1c;
+    /* background-image: #2e2e2e; */
     background-attachment: fixed;
 }
 
@@ -185,9 +178,6 @@ a:hover {
 }
 
 
-/* Create two unequal columns that floats next to each other */
-
-
 /* Left column */
 
 .leftcolumn {
@@ -201,7 +191,7 @@ a:hover {
 .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     padding-left: 20px;
 }
 
@@ -222,7 +212,7 @@ a:hover {
     padding: 20px;
     margin-top: 20px;
     color: white;
-    position: relative;
+    /* position: relative; */
 }
 
 
@@ -235,17 +225,7 @@ a:hover {
 }
 
 
-/* ล่างเว็บ */
-
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
-
-
-/* ส่วนตวบคุมกล่องข้อความยุบขนาดตามจอ*/
+/* ส่วนตวบคุมกล่องข้อความยุบขนาดตามจอ */
 
 @media screen and (max-width: 800px) {
     .leftcolumn,
@@ -325,7 +305,7 @@ a:hover {
 /*-------ควบคุมขนาดของแท่งพลังงาน----------------- */
 
 .bar .progress-line.html span {
-    width: 90%
+    width: 60%
 }
 
 .bar .progress-line.css span {
@@ -337,7 +317,7 @@ a:hover {
 }
 
 .bar .progress-line.office span {
-    width: 90%
+    width: 80%
 }
 
 .bar .progress-line.cpp span {
@@ -386,7 +366,7 @@ a:hover {
 /*----------------คววบคุมข้อความในแท่งพลังงาน------------- */
 
 .progress-line.html span::after {
-    content: "45%"
+    content: "60%"
 }
 
 .progress-line.css span::after {
@@ -398,11 +378,11 @@ a:hover {
 }
 
 .progress-line.office span::after {
-    content: "90%"
+    content: "80%"
 }
 
 .progress-line.cpp span::after {
-    content: "75%"
+    content: "50%"
 }
 
 
