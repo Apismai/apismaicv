@@ -147,9 +147,6 @@ img {
 /*******************ส่วนควบคุมเนื้อหา****************************/
 
 
-/* ควบคุมกล่องข้อความ */
-
-
 /*ความคุมส่วนเนื้อหาเว็บ body*/
 
 * {
@@ -164,17 +161,6 @@ body {
     background-color: #1d1c1c;
     /* background-image: #2e2e2e; */
     background-attachment: fixed;
-}
-
-a {
-    /*ความคุมส่วนที่เป็นลิงค์ ให้กด*/
-    font-family: Pridi, serif;
-}
-
-a:hover {
-    /*ความคุมส่วนที่เป็นลิงค์ขณะลอยเมาส์เหนือลิงค์*/
-    font-family: Pridi, serif;
-    color: #ff0000;
 }
 
 
@@ -412,6 +398,11 @@ a:hover {
 
 .dev-icons {
     font-size: 3rem
+}
+
+.iconii {
+    margin: 20px;
+    color: #000000;
 }
 
 
